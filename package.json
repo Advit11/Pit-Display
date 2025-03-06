@@ -1,0 +1,47 @@
+{
+  "name": "pit-display",
+  "version": "2023.0.0",
+  "description": "Web app that showcases Team 254's general and robot information at tournaments, including information about sponsors, outreach, as well as renders and models of our robot's subystems.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "parcel index.html",
+    "watch": "parcel watch index.html --no-hmr",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Team254/Pit-Display.git"
+  },
+  "author": "Adam Mikacich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Team254/Pit-Display/issues"
+  },
+  "homepage": "https://github.com/Team254/Pit-Display#readme",
+  "dependencies": {
+    "@babel/compat-data": "^7.21.0",
+    "babel-polyfill": "^6.26.0",
+    "big-json": "^3.2.0",
+    "deasync": "^0.1.30",
+    "express": "^4.18.2",
+    "jsdom": "^21.1.1",
+    "json-stream-stringify": "^3.0.1",
+    "three": "^0.102.1",
+    "three-addons": "^1.2.0",
+    "three-obj-mtl-loader": "^1.0.3",
+    "vue": "^2.7.14",
+    "vue-hot-reload-api": "^2.3.4",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.6.0",
+    "babel-core": "^4.7.16",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-vue": "^2.0.2",
+    "parcel-bundler": "^1.8.1",
+    "vue-template-compiler": "^2.7.14"
+  }
+}

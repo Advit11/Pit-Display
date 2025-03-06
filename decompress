@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd models/export-compressed
+for file in *
+do
+  unzip -d ../export $file
+done
